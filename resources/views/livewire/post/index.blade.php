@@ -55,7 +55,7 @@
   </ul>
 
   <hr class="mt-4 mb-2" />
-  {{ $posts->onEachSide(3)->links('vendor.pagination.tailwind') }}
+  {{ $posts->onEachSide(3)->links('vendor.livewire.tailwind') }}
 
   <script>
     function deletePost(id) {
