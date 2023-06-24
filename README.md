@@ -9,6 +9,7 @@ npm install
 
 # Setup Your Database
 cp -r .env.example .env
+php artisan key:generate
 php artisan migrate:fresh --seed
 
 nvim # Go Check My Code Using Neovim 😎
