@@ -24,5 +24,3 @@ Route::get('/counter', fn () => view('counter'));
 Route::get('/user', fn () => view('user.index'));
 
 Route::get('/post', Index::class);
-Route::get('/post/create', Create::class);
-Route::get('/post/edit/{slug}', Edit::class);
