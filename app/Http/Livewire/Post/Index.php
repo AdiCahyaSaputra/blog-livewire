@@ -68,7 +68,7 @@ class Index extends Component
       return;
     }
 
-    session()->flash('delete-error', 'Berhasil menghapus data post');
+    session()->flash('delete-error', 'Gagal menghapus data post');
     return;
   }
 
